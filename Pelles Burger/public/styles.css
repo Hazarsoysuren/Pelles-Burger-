@@ -14,6 +14,10 @@ img{
     object-fit: cover;
 }
 
+.header img{
+
+}
+
 body{
     background-color: #ffffff;
 
@@ -23,6 +27,8 @@ nav {
     padding: 0 80px;
     display: flex;
     justify-content: space-evenly;
+    background-color: transparent;
+    height: 70px;
 }
 
 .links {
@@ -30,4 +36,22 @@ nav {
     align-items: center; /* Added */
     flex-direction: row; /* Removed */
     gap: 10px;
+}
+
+#hero{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 400px;
+}
+
+.hero-container {
+    background-image: url('images/Hamburger.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    display: flex;
 }
