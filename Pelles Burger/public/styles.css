@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,53 +7,73 @@
     
 }
 
+body{
+    font-family: hind;
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 a{
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
 }
 
 img{
     object-fit: cover;
+    border-radius: 100%;
+    width:150px;
+    height: 150px;
 }
 
-.header img{
 
-}
 
-body{
-    background-color: #ffffff;
 
-}
-
-nav {
-    padding: 0 80px;
+header {
     display: flex;
     justify-content: space-evenly;
     background-color: transparent;
     height: 70px;
+    z-index: 10;
+    flex: 1;
 }
 
 .links {
-    display: flex; /* Added */
-    align-items: center; /* Added */
-    flex-direction: row; /* Removed */
+    display: flex; 
+    align-items: center; 
+    flex-direction: row; 
     gap: 10px;
+    padding-top:80px;
 }
 
 #hero{
     width: 100%;
-    height: 80vh;
-    display: flex;
+    height: 200vh;
+    position: absolute;
+    top: 0;
     padding: 0;
     overflow: hidden;
-    padding-bottom: 400px;
+    display: flex;
+    flex: 1;
 }
 
 .hero-container {
-    background-image: url('images/Hamburger.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/Hamburger.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex: 1;
 }
