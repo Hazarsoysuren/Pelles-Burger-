@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 *{
     margin: 0;
@@ -52,13 +53,10 @@ header {
 
 #hero{
     width: 100%;
-    height: 200vh;
-    position: absolute;
-    top: 0;
+    height: 100vh;
     padding: 0;
     overflow: hidden;
     display: flex;
-    flex: 1;
 }
 
 .hero-container {
@@ -72,8 +70,25 @@ header {
 }
 
 #main{
-    height: 100vh;
-    width: 100%;
+    height: 50vh;
     display: flex;
-    flex: 1;
+    flex-direction: column;
+}
+
+#lunch{
+    display: flex;
+    align-items: center;
+    font-family: hind;
+    font-family: "satisfy", cursive;
+    padding-top: 10px;
+    font-size: 60px;
+
+}
+
+#dagens-text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+    
 }
